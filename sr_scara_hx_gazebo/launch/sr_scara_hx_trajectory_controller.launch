@@ -1,0 +1,8 @@
+<launch>
+	
+  <rosparam file="$(find sr_scara_hx_gazebo)/config/trajectory_control.yaml" command="load"/>
+
+  <node name="sr_scara_hx_controller_spawner" pkg="controller_manager" type="spawner" respawn="false"
+        output="screen" ns="/sr_scara_hx" args="sr_scara_hx_joint_controller"/>
+
+</launch>

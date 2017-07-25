@@ -1,0 +1,1 @@
+roslaunch robot_simulation toshiba_robot.launch model:="`rospack find robot_simulation`/URDF/toshiba_robot_r02.urdf" gui:=true
