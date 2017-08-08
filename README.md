@@ -1,4 +1,4 @@
-# AnTON
+# SCARA
 The complete Package for the SCARA
 
 __To Launch the Rviz along with the GUI for the Joint State Publisher__
