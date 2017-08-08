@@ -15,8 +15,11 @@
         <joint name="joint3" />
     </group>
     <!--DISABLE COLLISIONS: By default it is assumed that any link of the robot could potentially come into collision with any other link in the robot. This tag disables collision checking between a specified pair of links. -->
+    <disable_collisions link1="base_link" link2="gripper" reason="Never" />
+    <disable_collisions link1="base_link" link2="gripper_end_effector" reason="Never" />
     <disable_collisions link1="base_link" link2="link1" reason="Adjacent" />
     <disable_collisions link1="base_link" link2="link2" reason="Never" />
+    <disable_collisions link1="base_link" link2="probe" reason="Never" />
     <disable_collisions link1="gripper" link2="gripper_end_effector" reason="Adjacent" />
     <disable_collisions link1="gripper" link2="link1" reason="Never" />
     <disable_collisions link1="gripper" link2="link2" reason="Never" />
