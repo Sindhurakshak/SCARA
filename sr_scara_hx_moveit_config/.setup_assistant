@@ -1,0 +1,10 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: robot_simulation
+    relative_path: URDF/sr_scara_hx.urdf
+  SRDF:
+    relative_path: config/sr_scara_hx.srdf
+  CONFIG:
+    author_name: Sagnik Basu Choudhuri
+    author_email: sindhurakshak22@gmail.com
+    generated_timestamp: 1501191470
